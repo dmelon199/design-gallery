@@ -1,0 +1,38 @@
+{
+  "splash1": {
+    "class":"splash-design1",
+    "heading":"Splash Design 1",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/1237/a631a6f928701430049263c7601f3ba3x.jpg",
+    "demoLink": "http://splash1.cms.dealer.com/"
+  },
+  "splash2": {
+    "class":"splash-design2",
+    "heading":"Splash Design 2",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0366/29553160c3cef5566dc1b39fb38059e5x.jpg",
+    "demoLink": "http://splash2.cms.dealer.com/"
+  },
+  "splash3": {
+    "class":"splash-design3",
+    "heading":"Splash Design 3",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0302/fb9446c2e84f8f8c19210642ff4bcfabx.jpg",
+    "demoLink": "http://splash3.cms.dealer.com/"
+  },
+  "splash4": {
+    "class":"splash-design4",
+    "heading":"Splash Design 4",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0022/b13758481f8b232e4a933eb6689412c4x.jpg",
+    "demoLink": "http://splash4.cms.dealer.com/"
+  },
+  "splash5": {
+    "class":"splash-design5",
+    "heading":"Splash Design 5",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0307/0f462190f82a7729f0496c7cd7f49d17x.jpg",
+    "demoLink": "http://splash5.cms.dealer.com/"
+  },
+  "splash6": {
+    "class":"splash-design6",
+    "heading":"Splash Design 6",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/1621/fb06e50374c1f2aca6c7bd1c74415049x.jpg",
+    "demoLink": "http://splash6.cms.dealer.com/"
+  }
+}

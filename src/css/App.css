@@ -1,0 +1,116 @@
+/* HEADER */
+header .nav li {
+	padding: 5px 10px; 
+}
+
+header {
+	background: rgb(255,255,255, .1);
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+header a {
+	text-decoration: none;
+}
+
+/* BODY */
+.text-link {
+	color: #fff !important;
+}
+
+body .design-options, .preowned-designs {
+	background: #FAFAFA;
+}
+
+/* NAVIGATION */
+.nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav li a:hover {
+  text-decoration: none;
+	color: #fff;
+}
+
+.nav li a:after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 0;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    border:none;
+    margin-top: 5px;
+}
+
+.nav li a:hover:after {
+    width: 100%;
+}
+
+
+/* HOME HERO */
+.hero {
+	background-image: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,102,0,1) 33%, rgba(190,19,46,1) 66%, rgba(81,0,66,1) 100%);
+	min-height: 40rem;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.hero::before {
+	content:'';
+	display: block;
+	background-image:url(https://sketch-cdn.imgix.net/assets/blog/what-is-a-wireframe-header@2x.png?ixlib=rb-4.0.1&fit=clip&dpr=1&w=950&q=95&fm=jpg&auto=format&s=418d243f1ec07b4af38b788e386ed3e2);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .05;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.hero-content {
+	z-index: 1;
+}
+
+/*  DESIGN SECTIONS */
+.design-content {
+	width: 100%;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.1);
+	border-top: none;
+}
+.image-holder {
+	max-height: 350px;
+	overflow-y: auto;
+	border: 1px solid rgba(0,0,0,.1);
+	border-bottom: none;
+}
+
+
+.design-content::before {
+	content:'';
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	height: 5px;
+	background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,102,0,1) 33%, rgba(190,19,46,1) 66%, rgba(81,0,66,1) 100%);
+}
+
+
+
+/* SLIDESHOW CSS */
+.slider-single,
+.slider-single-content {height: 650px; }
+.slider-single-content {overflow-y: scroll; }
+.slider-single-content img {height:fit-content; }
+
+.react-3d-carousel .slider-container .slider-left div,
+.react-3d-carousel .slider-container .slider-right div {background-color: #97587F;border-color: #97587F !important}
