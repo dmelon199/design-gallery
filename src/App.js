@@ -7,13 +7,9 @@ import { Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
-
 /* PAGES */
 import Home from "./pages/Home";
-import GroupPages from "./pages/GroupPages";
-import SplashPages from "./pages/SplashPages";
-import PreownedPages from "./pages/PreownedPages";
+import DesignPages from "./pages/DesignPages";
 
 class App extends Component {
   constructor(props) {
@@ -36,9 +32,7 @@ class App extends Component {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/grouppages" element={<GroupPages />} />
-          <Route path="/splashpages" element={<SplashPages />} />
-          <Route path="/preownedpages" element={<PreownedPages />} />
+          <Route path="/designs/:type" element={<DesignPages />} />
         </Routes>
         <Footer user={this.state.user} />
       </div>

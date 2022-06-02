@@ -27,9 +27,9 @@ export default function Header() {
 			    <navbar className="ms-auto">
 				    <ul className="nav text-white">
 					    <li><Link to="/">Home</Link></li>
-					    <li><Link to="/grouppages">Group Designs</Link></li>
-					    <li><Link to="/preownedpages">Preowned Designs</Link></li>
-              <li><Link to="/splashpages">Splash Designs</Link></li>
+					    <li><Link to="/designs/group">Group Designs</Link></li>
+					    <li><Link to="/designs/preowned">Preowned Designs</Link></li>
+              <li><Link to="/designs/splash">Splash Designs</Link></li>
 					    <li>Tips & Tricks</li>
 					    <li>Tools</li>
 				    </ul>

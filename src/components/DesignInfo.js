@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const DesignInfo = (props) => {
   return (
     <div className="page-section d-flex col-6">
-      <div className={`${props.class} p-5`} >
+      <div className={`${props.class} p-4`} >
        <div className="d-flex flex-column align-items-center">
         <div className="image-holder">
           <img className="w-100" src={props.imgUrl}></img>

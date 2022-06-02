@@ -10,7 +10,6 @@ const Footer = (props) => {
           <span className='label text-white me-1'>you are:</span>
           <span className='user text-white me-auto fw-bold'>{props.user}</span>
         </p>
-        
 	      <span className="fw-bold fs-5 text-white ms-auto">THE IDG</span>
       </div>
     </footer>
