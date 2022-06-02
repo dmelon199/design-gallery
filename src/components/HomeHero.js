@@ -78,7 +78,7 @@ const HomeHero = () => {
 			</svg>
 		</div>
 		<div className="hero-content d-flex flex-column align-items-center">
-			<h1 className="display-1 pulsate text-white text-center fw-bold w-50 lh-1">Implementation Design Gallery</h1>
+			<h1 className="display-1 pulsate text-white text-center fw-bold lh-1 text-uppercase">Implementation<br/>Design Gallery</h1>
 			<div className="blobs-container d-flex pt-3">
 				<div className="blob white"></div>
 				<div className="blob red"></div>

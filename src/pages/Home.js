@@ -23,7 +23,7 @@ class Home extends React.Component {
             <HomeHero />
               <div className="body-content">
                 <div className="group-designs slideshow p-5">
-                  <h1 className="pb-5 text-center">Group Designs</h1>
+                  <h1 className="pb-5 text-center text-uppercase">Group Designs</h1>
                   <Carousel slides={slides}/>
                   <div className="slide-design-heading">
                     <h2 className="text-center pt-5 pb-3">Group Design One</h2>
@@ -37,7 +37,7 @@ class Home extends React.Component {
                   </div>
                 </div>
                 <div className="preowned-designs slideshow p-5">
-                  <h1 className="pb-5 text-center">Preowned Designs</h1>
+                  <h1 className="pb-5 text-center text-uppercase">Preowned Designs</h1>
                   <Carousel slides={slides}/>
                   <div className="slide-design-heading">
                     <h2 className="text-center pt-5 pb-3">Preowned Design One</h2>
@@ -51,7 +51,7 @@ class Home extends React.Component {
                   </div>
                 </div>
                 <div className="splash-designs slideshow p-5">
-                  <h1 className="pb-5 text-center">Splash Page Designs</h1>
+                  <h1 className="pb-5 text-center text-uppercase">Splash Page Designs</h1>
                     <Carousel slides={slides}/>
                     <div className="slide-design-heading">
                     <h2 className="text-center pt-5 pb-3">Splash Design One</h2>

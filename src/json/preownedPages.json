@@ -1,0 +1,56 @@
+{
+  "preowned1": {
+    "class":"preowned-design1",
+    "heading":"Preowned Design 1",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/1237/a631a6f928701430049263c7601f3ba3x.jpg",
+    "demoLink": "https://ddcpreowned1.cms.dealer.com/"
+  },
+  "preowned2": {
+    "class":"preowned-design2",
+    "heading":"Preowned Design 2",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0366/29553160c3cef5566dc1b39fb38059e5x.jpg",
+    "demoLink": "https://ddcpreowned2.cms.dealer.com/"
+  },
+  "preowned3": {
+    "class":"preowned-design3",
+    "heading":"Preowned Design 3",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0302/fb9446c2e84f8f8c19210642ff4bcfabx.jpg",
+    "demoLink": "https://ddcpreowned3.cms.dealer.com/"
+  },
+  "preowned4": {
+    "class":"preowned-design4",
+    "heading":"Preowned Design 4",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0022/b13758481f8b232e4a933eb6689412c4x.jpg",
+    "demoLink": "https://ddcpreowned4.cms.dealer.com/"
+  },
+  "preowned5": {
+    "class":"preowned-design5",
+    "heading":"Preowned Design 5",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0307/0f462190f82a7729f0496c7cd7f49d17x.jpg",
+    "demoLink": "https://ddcpreowned5.cms.dealer.com/"
+  },
+  "preowned6": {
+    "class":"preowned-design6",
+    "heading":"Preowned Design 6",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/1621/fb06e50374c1f2aca6c7bd1c74415049x.jpg",
+    "demoLink": "https://ddcpreowned6.cms.dealer.com/"
+  },
+  "preowned7": {
+    "class":"preowned-design7",
+    "heading":"Preowned Design 7",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0022/b13758481f8b232e4a933eb6689412c4x.jpg",
+    "demoLink": "https://ddcpreowned7.cms.dealer.com/"
+  },
+  "preowned8": {
+    "class":"preowned-design8",
+    "heading":"Preowned Design 8",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/0307/0f462190f82a7729f0496c7cd7f49d17x.jpg",
+    "demoLink": "https://ddcpreowned8.cms.dealer.com/"
+  },
+  "preowned9": {
+    "class":"preowned-design9",
+    "heading":"Preowned Design 9",
+    "imgUrl": "https://pictures.dealer.com/s/splashdemo/1621/fb06e50374c1f2aca6c7bd1c74415049x.jpg",
+    "demoLink": "https://ddcpreowned9.cms.dealer.com/"
+  }
+}

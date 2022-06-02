@@ -3,8 +3,17 @@ import DesignInfo from './DesignInfo';
 
 import splashPages from '../json/splashPages';
 import groupPages from '../json/groupPages';
+import preownedPages from '../json/preownedPages';
 
 import { Link } from "react-router-dom";
+
+
+const pagesMap = {
+  splash: splashPages,
+  group: groupPages,
+  preowned: preownedPages,
+};
+
 
 const DesignOptions = (props) => {
   return (
