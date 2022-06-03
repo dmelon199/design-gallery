@@ -3,21 +3,14 @@ import {Carousel} from '3d-react-carousal';
 import { useParams } from "react-router-dom";
 
 
+const Slideshows = (props) => {
+  const titleMap = {
+    splash: 'Splash',
+    group: 'Group',
+    preowned: 'Preowned',
+  };
+  const { type } = useParams();
 
-
-class Slideshows extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
-
-    const titleMap = {
-      splash: 'Splash',
-      group: 'Group',
-      preowned: 'Preowned',
-    };
-    const { type } = useParams();
-    
     let slides = [
       <img src="https://pictures.dealer.com/f/franckbarfetyvinsandbox/1697/6af554ad8ca1daaca61172597b73691fx.jpg" alt="1"/>,
       <img src="https://pictures.dealer.com/f/franckbarfetyvinsandbox/1829/f85739bc5a7c2d820334a344c24c3c72x.jpg" alt="2" />  ,
@@ -26,7 +19,7 @@ class Slideshows extends React.Component {
       <img src="https://pictures.dealer.com/f/franckbarfetyvinsandbox/0989/54d70ea7c81d17509ec48d4767b87945x.jpg" alt="5" />  ,
       <img src="https://pictures.dealer.com/f/franckbarfetyvinsandbox/0989/54d70ea7c81d17509ec48d4767b87945x.jpg" alt="6" />  ];
       return (
-        <div className="group-designs slideshow p-5">
+        <div className="-designs slideshow p-5">
           <h1 className="pb-5 text-center text-uppercase">{titleMap[type]} Designs</h1>
             <Carousel slides={slides}/>
           <div className="slide-design-heading">
@@ -42,6 +35,6 @@ class Slideshows extends React.Component {
         </div>
       )
    }
-}
+
 
 export default Slideshows;
