@@ -21,7 +21,7 @@ const DesignOptions = (props) => {
 
  
   return (
-    <div className="page-section p-5 d-flex flex-wrap ">
+    <div className="page-section p-5 d-flex flex-wrap">
         {Object.keys(pages).map(function(item) {
           return (
             <DesignInfo
