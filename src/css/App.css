@@ -170,6 +170,27 @@ body {
 	box-sizing: border-box;
 }
 
+.glider {
+	position: absolute;
+	display: flex;
+	height: 226px;
+	width: 270px;
+	background-color: black;
+	z-index: 1;
+	transition: 0.25s ease-out;
+}
+
+
+.react-tabs__tab-list {
+	&:react-tabs__tab--selected {
+		& ~ .glider {
+			transform: translateX(200%);
+		}
+	}
+}
+
+
+
 /* TABS */
 .react-tabs li {
 	flex-basis: 25%;

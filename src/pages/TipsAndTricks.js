@@ -39,6 +39,7 @@ const TipsAndTricks = () => {
           <i className="icon-size-large p-2"><IoIosImages /></i>
           <h3 className="mb-4">Imagery</h3>
           </Tab>
+          <Tab className="glider"></Tab>
         </TabList>
         <TabPanel>
           <h2 className="pt-3">What is Boostrap?</h2>
