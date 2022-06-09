@@ -30,7 +30,7 @@ export default function Header() {
 					    <li><Link to="/designs/group">Group Designs</Link></li>
 					    <li><Link to="/designs/preowned">Preowned Designs</Link></li>
               <li><Link to="/designs/splash">Splash Designs</Link></li>
-					    <li>Tips & Tricks</li>
+					    <li><Link to="/tipsandtricks">Tips & Tricks</Link></li>
 					    <li>Tools</li>
 				    </ul>
 			    </navbar>

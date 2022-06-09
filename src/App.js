@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 /* PAGES */
 import Home from "./pages/Home";
 import DesignPages from "./pages/DesignPages";
+import TipsAndTricks from "./pages/TipsAndTricks";
 
 class App extends Component {
   constructor(props) {
@@ -33,6 +34,7 @@ class App extends Component {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/designs/:type" element={<DesignPages />} />
+          <Route path="/tipsandtricks" element={<TipsAndTricks />} />
         </Routes>
         <Footer user={this.state.user} />
       </div>
