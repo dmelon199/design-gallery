@@ -22,7 +22,7 @@ const TipsAndTricks = () => {
       </div>
       <div className="body-content container">
       <Tabs>
-        <TabList className="react-tabs__tab-list d-flex">
+        <TabList className="react-tabs__tab-list d-flex px-0">
           <Tab className="d-flex flex-column align-items-center py-3">
           <i className="icon-size-large p-2"><BsFillBootstrapFill /></i>
           <h3 className="mb-4">Boostrap</h3>
