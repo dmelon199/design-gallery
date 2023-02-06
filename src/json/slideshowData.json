@@ -1,0 +1,38 @@
+{
+  "group1": {
+    "class":"group-design1",
+    "heading":"Group Design 1",
+    "imgUrl": "https://pictures.dealer.com/f/franckbarfetyvinsandbox/1697/6af554ad8ca1daaca61172597b73691fx.jpg",
+    "demoLink": "https://groupone.cms.dealer.com/"
+  },
+  "group2": {
+    "class":"group-design2",
+    "heading":"Group Design 2",
+    "imgUrl": "https://pictures.dealer.com/f/franckbarfetyvinsandbox/1829/f85739bc5a7c2d820334a344c24c3c72x.jpg",
+    "demoLink": "https://grouptwo.cms.dealer.com/"
+  },
+  "group3": {
+    "class":"group-design3",
+    "heading":"Group Design 3",
+    "imgUrl": "https://pictures.dealer.com/f/franckbarfetyvinsandbox/0414/9ea3b4575fd266684ff07aac65077d1ax.jpg",
+    "demoLink": "https://groupthree.cms.dealer.com/"
+  },
+  "group4": {
+    "class":"group-design4",
+    "heading":"Group Design 4",
+    "imgUrl": "https://pictures.dealer.com/f/franckbarfetyvinsandbox/0160/086f7b7c86451d41bb6c040142f4166ax.jpg",
+    "demoLink": "https://groupfour.cms.dealer.com/"
+  },
+  "group5": {
+    "class":"group-design5",
+    "heading":"Group Design 5",
+    "imgUrl": "https://pictures.dealer.com/f/franckbarfetyvinsandbox/0989/54d70ea7c81d17509ec48d4767b87945x.jpg",
+    "demoLink": "https://groupfive.cms.dealer.com/"
+  },
+  "group6": {
+    "class":"group-design6",
+    "heading":"Group Design 6",
+    "imgUrl": "https://pictures.dealer.com/f/franckbarfetyvinsandbox/0989/54d70ea7c81d17509ec48d4767b87945x.jpg",
+    "demoLink": "https://groupsix.cms.dealer.com/"
+  }
+}

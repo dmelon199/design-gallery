@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from "react-router-dom";
 import './css/App.css';
 import './css/Animation.css';
+import './css/3d-Carousel.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

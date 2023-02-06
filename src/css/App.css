@@ -9,27 +9,25 @@ header {
 	top: 0px;
 	width: 100%;
 	z-index: 1;
+	transition: background-color 2s;
 }
 
 header a {
 	text-decoration: none;
 }
 
+.header.scroll {
+	background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,102,0,1) 33%, rgba(190,19,46,1) 66%, rgba(81,0,66,1) 100%);
+	z-index: 13;
+	transition: background-color 2s;
+}
 
+/* FOOTER */
 footer {
 	background-color: black;
 }
+
 /* BODY */
-.text-link {
-	color: #fff !important;
-}
-
-
-a {
-	text-decoration: none !important;
-}
-
-
 body .design-options, .preowned-designs, .call-to-action-section {
 	background: #FAFAFA;
 }
@@ -39,9 +37,10 @@ body {
 }
 
 /* NAVIGATION */
-.nav a {
+.nav a,
+.nav-link {
 	text-decoration: none;
-	color: #fff;
+	color: #fff !Important;
 }
 
 .nav li a:hover {
@@ -65,11 +64,6 @@ body {
     width: 100%;
 }
 
-
-.header.scroll {
-	background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,102,0,1) 33%, rgba(190,19,46,1) 66%, rgba(81,0,66,1) 100%);
-	z-index: 13;
-}
 
 /* HOME HERO */
 .hero {
@@ -98,45 +92,6 @@ body {
 	z-index: 1;
 }
 
-/*  DESIGN SECTIONS */
-.design-content {
-	width: 100%;
-	background: #fff;
-	border: 1px solid rgba(0,0,0,.1);
-	border-top: none;
-}
-.image-holder {
-	max-height: 350px;
-	overflow-y: auto;
-	border: 1px solid rgba(0,0,0,.1);
-	border-bottom: none;
-}
-
-
-.design-content::before {
-	content:'';
-	display: block;
-	position: relative;
-	width: 100%;
-	z-index: 1;
-	height: 5px;
-	background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,102,0,1) 33%, rgba(190,19,46,1) 66%, rgba(81,0,66,1) 100%);
-}
-
-
-
-/* SLIDESHOW CSS */
-.slider-single,
-.slider-single-content {height: 650px; }
-.slider-single-content {overflow-y: scroll; }
-.slider-single-content img {height:fit-content; }
-
-.react-3d-carousel .slider-container .slider-left div,
-.react-3d-carousel .slider-container .slider-right div {background-color: #97587F;border-color: #97587F !important}
-
-
-
-
 /* HOME CTA SECTION */
 .icon-size-large {
 	font-size: 5rem;
@@ -163,10 +118,62 @@ body {
 	background:rgba(81,0,66,1);	
 }
 
+/*************************  
+INTERIOR PAGE STYLES 
+**************************/
+
+/*  DESIGN PAGE SECTIONS */
+.design-content {
+	width: 100%;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.1);
+	border-top: none;
+}
+.image-holder {
+	max-height: 350px;
+	overflow-y: auto;
+	border: 1px solid rgba(0,0,0,.1);
+	border-bottom: none;
+}
+
+.design-content::before {
+	content:'';
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	height: 5px;
+	background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,102,0,1) 33%, rgba(190,19,46,1) 66%, rgba(81,0,66,1) 100%);
+}
+
+/* TIPS AND TRICKS TABS */
+.react-tabs li {
+	flex-basis: 25%;
+}
+
+.react-tabs__tab-list {
+	background-color: #f7f7f7;
+	box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+}
+
+.react-tabs__tab--selected {
+	transition: ease-in;
+}
+
+.react-tabs {
+	margin-top: -120px;
+	position: relative;
+}
+
+.react-tabs__tab-list {
+	border-radius: 12px;
+	border-bottom: none !important;;
+}
 
 .react-tabs li * {
 	z-index: 2;
 }
+
 .react-tabs li:focus-visible {
 	outline:	none;
 }
@@ -198,28 +205,36 @@ body {
 	border-radius: 12px;
 }
 
-
-/* TABS */
-.react-tabs li {
-	flex-basis: 25%;
-}
-
-.react-tabs__tab-list {
-	background-color: #f7f7f7;
-	box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
-}
-
-.react-tabs__tab--selected {
-	transition: ease-in;
-}
-
-
-.react-tabs {
-	margin-top: -130px;
-	position: relative;
-}
-
-.react-tabs__tab-list {
+.code-section {
+	background-color: #f8f9fa;
 	border-radius: 12px;
-	border-bottom: none !important;;
+}
+
+/* GLOBAL STYLES & OVERRIDES */
+.text-link {
+	color: #fff !important;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, 
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+	float: left;
+	padding-left: 12px;
+	padding-right: 12px;
+
+}
+.z-index-1 {
+	z-index: 1;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+	.col-sm-4 {
+    width: 100% !important;
+		margin-bottom: 1.5rem;
+	}
 }

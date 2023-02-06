@@ -6,6 +6,7 @@ import DesignInfo from './DesignInfo';
 import splashPages from '../json/splashPages';
 import groupPages from '../json/groupPages';
 import preownedPages from '../json/preownedPages';
+import interiorPages from '../json/interiorPages';
 
 
 const DesignOptions = (props) => {
@@ -14,6 +15,7 @@ const DesignOptions = (props) => {
     splash: splashPages,
     group: groupPages,
     preowned: preownedPages,
+    interior: interiorPages,
   };
   
   const { type } = useParams();

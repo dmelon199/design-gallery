@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
 
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function Header() {
 		const [scroll, setScroll] = useState(false);
@@ -24,16 +26,19 @@ export default function Header() {
 							</a>
 						</div>
 					</div>
-			    <navbar className="ms-auto">
-				    <ul className="nav text-white">
-					    <li><Link to="/">Home</Link></li>
-					    <li><Link to="/designs/group">Group Designs</Link></li>
-					    <li><Link to="/designs/preowned">Preowned Designs</Link></li>
-              <li><Link to="/designs/splash">Splash Designs</Link></li>
-					    <li><Link to="/tipsandtricks">Tips & Tricks</Link></li>
-					    <li>Tools</li>
-				    </ul>
-			    </navbar>
+					<Navbar className="ms-auto">
+						<Nav>
+							<Nav.Link href="/">Home</Nav.Link>
+							<NavDropdown title="Designs" id="basic-nav-dropdown">
+								<NavDropdown.Item href="/designs/group">Group Pages</NavDropdown.Item>
+								<NavDropdown.Item href="/designs/splash">Splash Pages</NavDropdown.Item>
+								<NavDropdown.Item href="/designs/preowned">Pre-Owend Pages</NavDropdown.Item>
+								<NavDropdown.Item href="">About Us Pages</NavDropdown.Item>
+							</NavDropdown>
+							<Nav.Link href="/tipsandtricks">Tips & Tricks</Nav.Link>
+							<Nav.Link href="#link">Tools</Nav.Link>
+						</Nav>
+					</Navbar>
         </div>
 		  </header>
     )

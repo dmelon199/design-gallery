@@ -10,6 +10,7 @@ const DesignPages = () => {
     splash: 'Splash',
     group: 'Group',
     preowned: 'Preowned',
+    interior: 'Interior',
   };
   const { type } = useParams();
 

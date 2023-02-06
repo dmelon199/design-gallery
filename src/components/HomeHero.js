@@ -1,5 +1,6 @@
 
 import React from "react"
+import AnchorLink from 'react-anchor-link-smooth-scroll-v2'
 
 
 const HomeHero = () => {
@@ -88,6 +89,13 @@ const HomeHero = () => {
 				<div className="blob green"></div>
 				<div className="blob purple"></div>
 				<div className="blob"></div>
+			</div>
+		</div>
+		<div className="cta-hero-content d-flex flex-row align-items-bottom z-index-1">
+			<div className="cta-container d-flex pt-3">
+			<AnchorLink className="px-3" href='#group'>Group Designs</AnchorLink>
+			<AnchorLink className="px-3" href='#preowned'>Pre-Owned Designs</AnchorLink>
+    	<AnchorLink className="px-3" href='#splash'>Splash Designs</AnchorLink>
 			</div>
 		</div>
 	</div>

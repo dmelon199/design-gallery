@@ -2,6 +2,12 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import PropTypes from 'prop-types';
 
+import { useParams } from "react-router-dom";
+import SlideshowInfo from './SlideshowInfo';
+
+import splashPages from '../json/splashPages';
+import groupPages from '../json/groupPages';
+import preownedPages from '../json/preownedPages';
 
 // const isEqual = require("react-fast-compare");
 
@@ -177,8 +183,19 @@ export function Carousel(props) {
     return sliderClass;
   };
 
+  const pagesMap = {
+    splash: splashPages,
+    group: groupPages,
+    preowned: preownedPages,
+  };
+  
+  const { type } = useParams();
+  const pages = pagesMap[type];
+
+
   return (
-    <div className="react-3d-carousel" style={{ height }} {...handlers}>
+    <div>
+      <div className="react-3d-carousel" style={{ height }} {...handlers}>
           {slides && slides.length > 0
                 && <div className="slider-container" >
 
@@ -197,7 +214,20 @@ export function Carousel(props) {
                                     </div>
 
                                     <div className="slider-single-content">
-                                        {slider.element}
+                                        <div className="slider-image-container">
+                                          {slider.element}
+                                        </div>
+                                        <div className='slideshow-data'>
+                                          {Object.keys(pages).map(function(item) {
+                                            return (
+                                              <SlideshowInfo
+                                                classLink={pages[item].classLink}
+                                                demoLink={pages[item].demoLink}
+                                                heading={pages[item].heading}
+                                              />
+                                            )
+                                          })}
+                                        </div>
                                     </div>
                                 </div>
                       ))}
@@ -205,6 +235,7 @@ export function Carousel(props) {
 
                 </div>}
         </div>
+    </div>
   );
 }
 Carousel.propTypes = {
