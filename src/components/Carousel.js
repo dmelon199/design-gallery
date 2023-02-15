@@ -29,7 +29,8 @@ export function Carousel(props) {
     props.slides.forEach((slide) => {
       const slideobject = {
         class: 'slider-single proactivede',
-        element: slide,
+        element: slide.element,
+        meta: slide.meta,
       };
       locSlides.push(slideobject);
     });
@@ -37,7 +38,8 @@ export function Carousel(props) {
       props.slides.forEach((slide) => {
         const slideobject = {
           class: 'slider-single proactivede',
-          element: slide,
+          element: slide.element,
+          meta: slide.meta,
         };
         locSlides.push(slideobject);
       });
@@ -188,11 +190,15 @@ export function Carousel(props) {
     group: groupPages,
     preowned: preownedPages,
   };
+
+ 
+
+  const pages = [
+    ...Object.values(splashPages),
+    ...Object.values(groupPages),
+    ...Object.values(preownedPages),
+  ];
   
-  const { type } = useParams();
-  const pages = pagesMap[type];
-
-
   return (
     <div>
       <div className="react-3d-carousel" style={{ height }} {...handlers}>
@@ -217,17 +223,7 @@ export function Carousel(props) {
                                         <div className="slider-image-container">
                                           {slider.element}
                                         </div>
-                                        <div className='slideshow-data'>
-                                          {Object.keys(pages).map(function(item) {
-                                            return (
-                                              <SlideshowInfo
-                                                classLink={pages[item].classLink}
-                                                demoLink={pages[item].demoLink}
-                                                heading={pages[item].heading}
-                                              />
-                                            )
-                                          })}
-                                        </div>
+                                        <div className="slideshow-data">{slider.meta}</div>
                                     </div>
                                 </div>
                       ))}
