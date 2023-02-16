@@ -5,10 +5,6 @@ import PropTypes from 'prop-types';
 import { useParams } from "react-router-dom";
 import SlideshowInfo from './SlideshowInfo';
 
-import splashPages from '../json/splashPages';
-import groupPages from '../json/groupPages';
-import preownedPages from '../json/preownedPages';
-
 // const isEqual = require("react-fast-compare");
 
 export function Carousel(props) {
@@ -185,22 +181,8 @@ export function Carousel(props) {
     return sliderClass;
   };
 
-  const pagesMap = {
-    splash: splashPages,
-    group: groupPages,
-    preowned: preownedPages,
-  };
-
- 
-
-  const pages = [
-    ...Object.values(splashPages),
-    ...Object.values(groupPages),
-    ...Object.values(preownedPages),
-  ];
-  
   return (
-    <div>
+    <div className="slideshow-container">
       <div className="react-3d-carousel" style={{ height }} {...handlers}>
           {slides && slides.length > 0
                 && <div className="slider-container" >

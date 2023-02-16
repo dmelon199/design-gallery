@@ -25,13 +25,43 @@ const Slideshows = (props) => {
     ),
   }));
 
+  let slides2 = Object.values(preownedPages).map((page, idx) => ({
+    element: <img src={page.imgUrl} alt={`${idx}`} />,
+    meta: (
+      <SlideshowInfo
+        classLink={page['class']}
+        demoLink={page.demoLink}
+        heading={page.heading}
+      />
+    ),
+  }));
+
+  let slides3 = Object.values(splashPages).map((page, idx) => ({
+    element: <img src={page.imgUrl} alt={`${idx}`} />,
+    meta: (
+      <SlideshowInfo
+        classLink={page['class']}
+        demoLink={page.demoLink}
+        heading={page.heading}
+      />
+    ),
+  }));
+
   return (
-    <section id="slideshow-designs">
-    <div className="p-5">
-      <h1 className="pb-5 text-center text-uppercase">Group Designs</h1>
-        <Carousel slides={slides1}/>
+    <div className="slideshow-designs-wrapper">
+        <section id="group" className="row py-5">
+          <h1 className="pb-4 text-center text-uppercase">Group Designs</h1>
+          <Carousel slides={slides1}/>
+        </section>
+        <section id="preowned" className="row py-5">
+          <h1 className="pb-4 text-center text-uppercase">Pre-Owned Designs</h1>
+          <Carousel slides={slides2}/>
+        </section>
+        <section id="splash" className="row py-5">
+          <h1 className="pb-4 text-center text-uppercase">Splash Designs</h1>
+          <Carousel slides={slides3}/>
+        </section>
       </div>
-  </section>
     )
 }
 

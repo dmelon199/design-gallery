@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 /* COMPONENTS */
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollButton from './components/ScrollButton';
 
 /* PAGES */
 import Home from "./pages/Home";
@@ -36,6 +37,7 @@ class App extends Component {
           <Route path="/designs/:type" element={<DesignPages />} />
           <Route path="/tipsandtricks" element={<TipsAndTricks />} />
         </Routes>
+        <ScrollButton />
         <Footer user={this.state.user} />
       </div>
     );

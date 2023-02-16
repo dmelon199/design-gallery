@@ -93,9 +93,9 @@ const HomeHero = () => {
 		</div>
 		<div className="cta-hero-content d-flex flex-row align-items-bottom z-index-1">
 			<div className="cta-container d-flex pt-3">
-			<AnchorLink className="px-3" href='#group'>Group Designs</AnchorLink>
-			<AnchorLink className="px-3" href='#preowned'>Pre-Owned Designs</AnchorLink>
-    	<AnchorLink className="px-3" href='#splash'>Splash Designs</AnchorLink>
+			<AnchorLink className="btn-secondary px-3" href='#group'>Group Designs</AnchorLink>
+			<AnchorLink className="btn-secondary px-3" href='#preowned'>Pre-Owned Designs</AnchorLink>
+    	<AnchorLink className="btn-secondary px-3" href='#splash'>Splash Designs</AnchorLink>
 			</div>
 		</div>
 	</div>

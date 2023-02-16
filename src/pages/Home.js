@@ -16,8 +16,6 @@ class Home extends React.Component {
               <div className="body-content">
                 <HomeCtas />
                 <Slideshows />
-                <Slideshows />
-                <Slideshows />
               </div>
           </div>       
         );

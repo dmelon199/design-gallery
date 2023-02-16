@@ -1,3 +1,12 @@
+:root {
+	--bs-btn-bg: red;
+}
+
+.btn.btn-primary {
+	--bs-btn-bg: rgba(81,0,66,1);
+	--bs-btn-border-color: rgba(81,0,66,1)
+}
+
 /* HEADER */
 header .nav li {
 	padding: 5px 10px; 
@@ -24,7 +33,7 @@ header a {
 
 /* FOOTER */
 footer {
-	background-color: black;
+	background-color: #28253a;
 }
 
 /* BODY */
@@ -35,6 +44,16 @@ body .design-options, .preowned-designs, .call-to-action-section {
 body {
 	font-family: 'Rubik', sans-serif !important;
 }
+
+/* BUTTON */
+.btn-secondary {
+	background: #fff;
+	border-radius: 8px;
+	padding: .75rem;
+	margin: 0 5px;
+	color: purple;
+}
+
 
 /* NAVIGATION */
 .nav a,
@@ -88,33 +107,72 @@ body {
 	position: absolute;
 }
 
-.hero-content {
-	z-index: 1;
-}
-
 /* HOME CTA SECTION */
 .icon-size-large {
 	font-size: 5rem;
 }
+.icon-size-medium {
+	font-size: 1.75rem;
+}
 
 .cta-section .cta-content {
 	border-radius: 24px;
-	transition: .5s;
 	box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+	transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+.cta-section .front,
+.cta-section .back {
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 24px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  backface-visibility: hidden;
+}
+
+.cta-section {
+	height: 250px;
+}
+
+.cta-section .back p {
+	margin-bottom: 0px;
+}
+
+.cta-section .back {
+  background-color: #28253a;
+  transform: rotateX(180deg);
+}
+.cta-section:hover .cta-content {
+  transform: rotateX(180deg);
+}
+
+.cta-section .content {
+  transform: translateZ(50px);
 }
 
 .cta-section .cta-content:hover {
-	transition: .5s;
+	transition: .6s;
 	box-shadow: 1px 1px 20px rgb(0 0 0 / 40%);
 }
 
-.orange-bg {
+.cta-section .orange-bg {
 	background:rgba(255,153,51,1);	
 }
-.red-bg {
+.cta-section .red-bg {
 	background:rgba(190,19,46,1) ;	
 }
-.purple-bg {
+.cta-section .purple-bg {
 	background:rgba(81,0,66,1);	
 }
 
@@ -237,4 +295,20 @@ a {
     width: 100% !important;
 		margin-bottom: 1.5rem;
 	}
+}
+
+
+.scroll-button {
+	position: fixed; 
+  right: 5%;
+  bottom: 140px;
+  z-index: 1;
+  cursor: pointer;
+	height: auto;
+	color: green;
+	transition: 0.8s ease;
+}
+
+section:nth-child(1) {
+	background-color: #F2F2F2;
 }

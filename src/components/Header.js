@@ -36,7 +36,7 @@ export default function Header() {
 								<NavDropdown.Item href="">About Us Pages</NavDropdown.Item>
 							</NavDropdown>
 							<Nav.Link href="/tipsandtricks">Tips & Tricks</Nav.Link>
-							<Nav.Link href="#link">Tools</Nav.Link>
+							<Nav.Link href="#link">Tools We Use</Nav.Link>
 						</Nav>
 					</Navbar>
         </div>

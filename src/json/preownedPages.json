@@ -50,7 +50,13 @@
   "preowned9": {
     "class":"preowned-design9",
     "heading":"Preowned Design 9",
-    "imgUrl": "https://pictures.dealer.com/i/idevpreowneddemo/0175/9c66c093d7b27f43a496295c8240d6e2x.jpg",
+    "imgUrl": "https://pictures.dealer.com/i/idevpreowneddemo/0585/a6a432b9e1d754d1ab7249cef1125833x.jpg",
     "demoLink": "https://ddcpreowned9.cms.dealer.com/"
+  },
+  "preowned10": {
+    "class":"preowned-design10",
+    "heading":"Preowned Design 10",
+    "imgUrl": "https://pictures.dealer.com/i/idevpreowneddemo/1245/e4c45162ae64ae82a6e7674f5f4409cex.jpg",
+    "demoLink": "https://ddcpreowned10.cms.dealer.com/"
   }
 }

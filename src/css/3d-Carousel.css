@@ -217,8 +217,14 @@
 	font-size: 24px;
 }
 
+section:nth-child(odd) {
+	background-color: #F2F2F2;
+}
 
+section:nth-child(odd) .slideshow-data {
+	background:	#F2F2F2;
+}
 
-.slideshow-data {
+section:nth-child(even) .slideshow-data {
 	background:	#fff;
 }
