@@ -11,7 +11,7 @@ const SlideshowInfo = (props) => {
         <a className="btn btn-primary px-3 py-2 ms-2 text-decoration-none" target="_blank" href="">Apply Design</a>
       </div>
       <div className="slide-design-footer d-flex justify-content-center">
-        <a className="btn btn-link px-3 py-2 mt-4 text-decoration-none" target="_blank" href=''>View All Group Designs</a>
+        <a className="btn btn-link px-3 py-2 mt-4 text-decoration-none" href={props.designLink}>{props.viewAll}</a>
       </div>
   </div>
   )

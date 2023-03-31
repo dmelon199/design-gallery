@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import './css/App.css';
 import './css/Animation.css';
 import './css/3d-Carousel.css';
+import './css/ToolsWeUse.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

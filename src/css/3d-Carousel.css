@@ -18,11 +18,8 @@
 }
 
 
-
 .react-3d-carousel .slider-container .slider-left div,
 .react-3d-carousel .slider-container .slider-right div {background-color: #97587F;border-color: #97587F !important}
-
-
 
 @keyframes heartbeat {
 	0% {
@@ -227,4 +224,21 @@ section:nth-child(odd) .slideshow-data {
 
 section:nth-child(even) .slideshow-data {
 	background:	#fff;
+}
+
+
+.slider-content .btn-link {
+	color: #333;
+}
+
+.slider-content .btn-link::after {
+	content:'';
+	display: block;
+	height: 3px;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,102,0,1) 33%, rgba(190,19,46,1) 66%, rgba(81,0,66,1) 100%) ;
+}
+
+.slider-content .btn-primary {
+	width: 145px;
 }

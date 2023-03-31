@@ -20,7 +20,9 @@ const Slideshows = (props) => {
       <SlideshowInfo
         classLink={page['class']}
         demoLink={page.demoLink}
+        designLink='/designs/group'
         heading={page.heading}
+        viewAll='View All Group Designs'
       />
     ),
   }));
@@ -31,7 +33,9 @@ const Slideshows = (props) => {
       <SlideshowInfo
         classLink={page['class']}
         demoLink={page.demoLink}
+        designLink='/designs/preowned'
         heading={page.heading}
+        viewAll='View All Preowned Designs'
       />
     ),
   }));
@@ -42,7 +46,9 @@ const Slideshows = (props) => {
       <SlideshowInfo
         classLink={page['class']}
         demoLink={page.demoLink}
+        designLink='/designs/splash'
         heading={page.heading}
+        viewAll='View All Splash Designs'
       />
     ),
   }));

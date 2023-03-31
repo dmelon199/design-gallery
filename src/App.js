@@ -12,6 +12,7 @@ import ScrollButton from './components/ScrollButton';
 import Home from "./pages/Home";
 import DesignPages from "./pages/DesignPages";
 import TipsAndTricks from "./pages/TipsAndTricks";
+import ToolsWeUse from "./pages/ToolsWeUse";
 
 class App extends Component {
   constructor(props) {
@@ -35,7 +36,8 @@ class App extends Component {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/designs/:type" element={<DesignPages />} />
-          <Route path="/tipsandtricks" element={<TipsAndTricks />} />
+          <Route path="/tips-and-tricks" element={<TipsAndTricks />} />
+          <Route path="/tools-we-use" element={<ToolsWeUse />} />
         </Routes>
         <ScrollButton />
         <Footer user={this.state.user} />

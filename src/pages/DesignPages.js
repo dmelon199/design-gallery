@@ -6,11 +6,13 @@ import DesignOptions from "../components/DesignOptions";
 
 
 const DesignPages = () => {
+  
   const titleMap = {
     splash: 'Splash',
     group: 'Group',
     preowned: 'Preowned',
     interior: 'Interior',
+    comingsoon: 'Coming Soon',
   };
   const { type } = useParams();
 

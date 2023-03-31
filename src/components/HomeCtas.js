@@ -29,7 +29,7 @@ const HomeCtas = () => {
           </Link>
         </div>
         <div className="col-xs-12 col-sm-4 cta-section">
-          <Link to="/tipsandtricks">
+          <Link to="/tips-and-tricks">
             <div className="cta-content rgb d-flex flex-column align-items-center red-bg text-white text-center p-4">
               <div className="front">
                 <div className="content">
@@ -46,7 +46,7 @@ const HomeCtas = () => {
           </Link>
         </div>
         <div className="col-xs-12 col-sm-4 cta-section">
-        <Link to="/">
+        <Link to="/tools-we-use">
           <div className="cta-content d-flex flex-column align-items-center purple-bg text-white text-center p-4">
             <div className="front">
               <div className="content">

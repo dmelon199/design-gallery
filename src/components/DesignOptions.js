@@ -7,6 +7,7 @@ import splashPages from '../json/splashPages';
 import groupPages from '../json/groupPages';
 import preownedPages from '../json/preownedPages';
 import interiorPages from '../json/interiorPages';
+import comingSoonPages from '../json/comingSoonPages';
 
 
 const DesignOptions = (props) => {
@@ -16,6 +17,7 @@ const DesignOptions = (props) => {
     group: groupPages,
     preowned: preownedPages,
     interior: interiorPages,
+    comingsoon: comingSoonPages,
   };
   
   const { type } = useParams();

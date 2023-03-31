@@ -3,9 +3,16 @@
 }
 
 .btn.btn-primary {
-	--bs-btn-bg: rgba(81,0,66,1);
-	--bs-btn-border-color: rgba(81,0,66,1)
+	--bs-btn-bg: #51064C;
+	--bs-btn-border-color: #51064C;
 }
+
+.btn.btn-primary:hover {
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: #a51f88;
+	--bs-btn-hover-border-color: #a51f88;
+}
+
 
 /* HEADER */
 header .nav li {
@@ -300,12 +307,12 @@ a {
 
 .scroll-button {
 	position: fixed; 
-  right: 5%;
-  bottom: 140px;
-  z-index: 1;
-  cursor: pointer;
+  	right: 3%;
+  	bottom: 140px;
+  	z-index: 1;
+  	cursor: pointer;
 	height: auto;
-	color: green;
+	color: #2ec14e;
 	transition: 0.8s ease;
 }
 

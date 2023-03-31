@@ -1,0 +1,26 @@
+{
+    "comingSoon1": {
+      "class":"coming-soon1",
+      "heading":"Coming Soon 1",
+      "imgUrl": "https://pictures.dealer.com/i/impcomingsoon/1504/3b279f9d5ab6a1d7d1d3ae25c78a3baex.jpg",
+      "demoLink": "http://comingsoon1.cms.dealer.com/"
+    },
+    "comingSoon2": {
+      "class":"coming-soon2",
+      "heading":"Coming Soon 2",
+      "imgUrl": "https://pictures.dealer.com/i/impcomingsoon/1697/34d5cb11686527246b89d2996070159ax.jpg",
+      "demoLink": "http://comingsoon2.cms.dealer.com/"
+    },
+    "comingSoon3": {
+      "class":"coming-soon3",
+      "heading":"Coming Soon 3",
+      "imgUrl": "https://pictures.dealer.com/i/impcomingsoon/1137/a0d9f6eace67d47554e3fd378de5abadx.jpg",
+      "demoLink": "http://comingsoon3.cms.dealer.com/"
+    },
+    "comingSoon4": {
+      "class":"coming-soon4",
+      "heading":"Coming Soon 4",
+      "imgUrl": "https://pictures.dealer.com/i/impcomingsoon/1202/26b647a4fdfc5c39e8976721be317e5fx.jpg",
+      "demoLink": "http://comingsoon4.cms.dealer.com/"
+    }
+}

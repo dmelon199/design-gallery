@@ -93,9 +93,48 @@ const HomeHero = () => {
 		</div>
 		<div className="cta-hero-content d-flex flex-row align-items-bottom z-index-1">
 			<div className="cta-container d-flex pt-3">
-			<AnchorLink className="btn-secondary px-3" href='#group'>Group Designs</AnchorLink>
-			<AnchorLink className="btn-secondary px-3" href='#preowned'>Pre-Owned Designs</AnchorLink>
-    	<AnchorLink className="btn-secondary px-3" href='#splash'>Splash Designs</AnchorLink>
+				<AnchorLink offset='100' className="btn cta-btn js-animated-button" href='#group'>
+				<span className="cta-btn-label">Group Designs</span>
+					<svg className="cta-btn-svg-circle" width="190" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60">
+						<circle fill="#FFFFFF" cx="30" cy="30" r="28.7"></circle>
+					</svg>
+					<svg className="cta-btn-svg-border" x="0px" y="0px" preserveaspectratio="none" viewBox="2 29.3 56.9 13.4" enable-background="new 2 29.3 56.9 13.4" width="190">
+						<g className="cta-btn-svg-border-left js-discover-left-border" id="Calque_2">
+							<path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9H9c0,0-6.2-0.3-6.2-5.9S9,30.1,9,30.1h21.4"></path>
+						</g>
+						<g className="cta-btn-svg-border-right js-discover-right-border" id="Calque_3">
+							<path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9h21.5c0,0,6.1-0.4,6.1-5.9s-6-5.9-6-5.9H30.4"></path>
+						</g>
+					</svg>
+				</AnchorLink>
+				<AnchorLink offset='100' className="btn cta-btn js-animated-button" href='#preowned'>
+				<span className="cta-btn-label">Pre-Owned Designs</span>
+					<svg className="cta-btn-svg-circle" width="190" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60">
+						<circle fill="#FFFFFF" cx="30" cy="30" r="28.7"></circle>
+					</svg>
+					<svg className="cta-btn-svg-border" x="0px" y="0px" preserveaspectratio="none" viewBox="2 29.3 56.9 13.4" enable-background="new 2 29.3 56.9 13.4" width="190">
+						<g className="cta-btn-svg-border-left js-discover-left-border" id="Calque_2">
+							<path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9H9c0,0-6.2-0.3-6.2-5.9S9,30.1,9,30.1h21.4"></path>
+						</g>
+						<g className="cta-btn-svg-border-right js-discover-right-border" id="Calque_3">
+							<path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9h21.5c0,0,6.1-0.4,6.1-5.9s-6-5.9-6-5.9H30.4"></path>
+						</g>
+					</svg>
+				</AnchorLink>
+				<AnchorLink offset='100' className="btn cta-btn js-animated-button" href='#splash'>
+				<span className="cta-btn-label">Splash Designs</span>
+					<svg className="cta-btn-svg-circle" width="190" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60">
+						<circle fill="#FFFFFF" cx="30" cy="30" r="28.7"></circle>
+					</svg>
+					<svg className="cta-btn-svg-border" x="0px" y="0px" preserveaspectratio="none" viewBox="2 29.3 56.9 13.4" enable-background="new 2 29.3 56.9 13.4" width="190">
+						<g className="cta-btn-svg-border-left js-discover-left-border" id="Calque_2">
+							<path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9H9c0,0-6.2-0.3-6.2-5.9S9,30.1,9,30.1h21.4"></path>
+						</g>
+						<g className="cta-btn-svg-border-right js-discover-right-border" id="Calque_3">
+							<path fill="none" stroke="#FFF" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9h21.5c0,0,6.1-0.4,6.1-5.9s-6-5.9-6-5.9H30.4"></path>
+						</g>
+					</svg>
+				</AnchorLink>
 			</div>
 		</div>
 	</div>
